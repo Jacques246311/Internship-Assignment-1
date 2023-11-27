@@ -32,6 +32,7 @@
 <!-- Load compiled Vue component -->
 <script src="{{ mix('js/app.js') }}" defer></script>
 
+
 <div id="app">
     <user-signup-chart></user-signup-chart>
 </div>

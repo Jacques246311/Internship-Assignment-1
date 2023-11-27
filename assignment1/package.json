@@ -9,5 +9,10 @@
         "axios": "^1.6.1",
         "laravel-vite-plugin": "^0.8.0",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "chart.js": "^4.4.0",
+        "vue": "^3.3.9",
+        "vue-chartjs": "^5.2.0"
     }
 }
