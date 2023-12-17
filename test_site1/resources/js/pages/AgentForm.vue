@@ -25,12 +25,44 @@
                 <v-icon @click="deleteAgent(item)">mdi-delete</v-icon>
             </template>
         </v-data-table>
+
+        <bar-chart :chart-data="barChartData" :chart-options="barChartOptions"></bar-chart>
+
     </div>
 </template>
+
+<script>
+import BarChart from './BarChart.vue';
+
+export default {
+    components: {
+        BarChart,
+    },
+    data() {
+        return {
+            barChartData: {
+                labels: ['Label 1', 'Label 2', 'Label 3'],
+                datasets: [
+                    {
+                        label: 'My Bar Chart',
+                        backgroundColor: '#42A5F5',
+                        data: [10, 20, 15],
+                    },
+                ],
+            },
+            barChartOptions: {
+                responsive: true,
+                maintainAspectRatio: false,
+            },
+        };
+    },
+};
+</script>
 
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
+
 
 const agentName = ref('');
 const agentAge = ref(0);
@@ -42,6 +74,8 @@ const headers = [
     { text: 'Actions', value: 'action', sortable: false },
 ];
 
+
+
 const addAgent = async () => {
     try {
         const response = await axios.post('/add-agent', {
@@ -52,7 +86,7 @@ const addAgent = async () => {
         console.log('Response:', response);
 
         if (response.data.success) {
-            fetchAgents();
+            await fetchAgents();
             agentName.value = '';
             agentAge.value = 0;
         } else {
@@ -80,7 +114,7 @@ const editAgent = async (agent) => {
             const response = await axios.put(`/edit-agent/${agent._id}`, { age: newAge });
 
             if (response.data.success) {
-                fetchAgents();
+                await fetchAgents();
             } else {
                 console.error('Failed to edit agent:', response.data.error || 'Unknown error');
             }
