@@ -5242,7 +5242,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-657535b0] {\n    background-color: #000;\n    color: #fff;\n    padding: 20px;\n}\n.form-container[data-v-657535b0] {\n    display: flex;\n    flex-direction: column;\n    max-width: 300px;\n    margin-bottom: 20px;\n}\n.form-label[data-v-657535b0] {\n    margin-bottom: 10px;\n}\n.form-input[data-v-657535b0] {\n    padding: 10px;\n    margin-bottom: 10px;\n}\n.form-button[data-v-657535b0] {\n    background-color: #ff0000;\n    color: #fff;\n    padding: 10px;\n    cursor: pointer;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-657535b0] {\r\n    background-color: #000;\r\n    color: #fff;\r\n    padding: 20px;\n}\n.form-container[data-v-657535b0] {\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 300px;\r\n    margin-bottom: 20px;\n}\n.form-label[data-v-657535b0] {\r\n    margin-bottom: 10px;\n}\n.form-input[data-v-657535b0] {\r\n    padding: 10px;\r\n    margin-bottom: 10px;\n}\n.form-button[data-v-657535b0] {\r\n    background-color: #ff0000;\r\n    color: #fff;\r\n    padding: 10px;\r\n    cursor: pointer;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5266,7 +5266,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n/* Your component-specific styles go here */\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\r\n/* Your component-specific styles go here */\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5290,7 +5290,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-b3c5cf30] {\n    background-color: #000;\n    color: #fff;\n    padding: 20px;\n}\n.action-section[data-v-b3c5cf30] {\n    display: flex;\n    flex-direction: column;\n    max-width: 300px;\n    margin-top: 20px;\n}\n.form-button[data-v-b3c5cf30] {\n    background-color: #ff0000;\n    color: #fff;\n    padding: 10px;\n    cursor: pointer;\n    margin-top: 10px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-b3c5cf30] {\r\n    background-color: #000;\r\n    color: #fff;\r\n    padding: 20px;\n}\n.action-section[data-v-b3c5cf30] {\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 300px;\r\n    margin-top: 20px;\n}\n.form-button[data-v-b3c5cf30] {\r\n    background-color: #ff0000;\r\n    color: #fff;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n    margin-top: 10px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5314,7 +5314,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-117c51c2] {\n    background-color: #000;\n    color: #fff;\n    padding: 20px;\n}\n.property-form[data-v-117c51c2] {\n    display: flex;\n    flex-direction: column;\n    max-width: 300px;\n}\n.form-label[data-v-117c51c2] {\n    margin-bottom: 5px;\n}\n.form-input[data-v-117c51c2] {\n    padding: 8px;\n    margin-bottom: 10px;\n}\n.form-button[data-v-117c51c2] {\n    background-color: #ff0000;\n    color: #fff;\n    padding: 10px;\n    cursor: pointer;\n    margin-top: 10px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-117c51c2] {\r\n    background-color: #000;\r\n    color: #fff;\r\n    padding: 20px;\n}\n.property-form[data-v-117c51c2] {\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 300px;\n}\n.form-label[data-v-117c51c2] {\r\n    margin-bottom: 5px;\n}\n.form-input[data-v-117c51c2] {\r\n    padding: 8px;\r\n    margin-bottom: 10px;\n}\n.form-button[data-v-117c51c2] {\r\n    background-color: #ff0000;\r\n    color: #fff;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n    margin-top: 10px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5338,7 +5338,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-11cd1df8] {\n    background-color: #000;\n    color: #fff;\n    padding: 20px;\n}\n.property-form[data-v-11cd1df8] {\n    display: flex;\n    flex-direction: column;\n    max-width: 300px;\n    margin-bottom: 20px;\n}\n.form-input[data-v-11cd1df8] {\n    padding: 10px;\n    margin-bottom: 10px;\n}\n.form-button[data-v-11cd1df8] {\n    background-color: #ff0000;\n    color: #fff;\n    padding: 10px;\n    cursor: pointer;\n    margin-top: 10px;\n}\n.search-results[data-v-11cd1df8] {\n    margin-top: 20px;\n}\n.selected-property[data-v-11cd1df8] {\n    margin-top: 20px;\n}\n.delete-button[data-v-11cd1df8] {\n    background-color: #ff0000;\n    color: #fff;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.content-container[data-v-11cd1df8] {\r\n    background-color: #000;\r\n    color: #fff;\r\n    padding: 20px;\n}\n.property-form[data-v-11cd1df8] {\r\n    display: flex;\r\n    flex-direction: column;\r\n    max-width: 300px;\r\n    margin-bottom: 20px;\n}\n.form-input[data-v-11cd1df8] {\r\n    padding: 10px;\r\n    margin-bottom: 10px;\n}\n.form-button[data-v-11cd1df8] {\r\n    background-color: #ff0000;\r\n    color: #fff;\r\n    padding: 10px;\r\n    cursor: pointer;\r\n    margin-top: 10px;\n}\n.search-results[data-v-11cd1df8] {\r\n    margin-top: 20px;\n}\n.selected-property[data-v-11cd1df8] {\r\n    margin-top: 20px;\n}\n.delete-button[data-v-11cd1df8] {\r\n    background-color: #ff0000;\r\n    color: #fff;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
